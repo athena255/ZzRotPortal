@@ -545,4 +545,8 @@ system propertiescontro
 =====================================================================
 2019-7-17 0:10 [ CaptureService.exe Windows process - What is it? - Google Chrome ]
 =====================================================================
-SYstmeem3 2 control.exeHElloFAceremplBAckgrounduploUPnP hostMUsUX UPdate INterval
+SYstmeem3 2 control.exeHElloFAceremplBAckgrounduploUPnP hostMUsUX UPdate INterval
+=====================================================================
+2019-9-2 21:49 [ Spotify (32 bit) - Bing - Google Chrome ]
+=====================================================================
+dddsds

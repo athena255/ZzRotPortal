@@ -12,6 +12,4 @@ public:
 
 	void _Open(int PID, HANDLE& hProc);
 	int GetProcecssID(const wchar_t* szProc);
-
-
 };

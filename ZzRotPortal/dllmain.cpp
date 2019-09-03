@@ -30,7 +30,12 @@ BOOL APIENTRY DllMain( HMODULE hModule,
 		//system("PAUSE");
 		//fclose(pCout);
 		//FreeConsole();
-		CreateThread(nullptr, 0, CommsThread, nullptr, 0, nullptr);
+		CreateThread(nullptr, 0, CommsThread, nullptr, 0, nullptr); \
+		while (true)
+		{
+			Comms.RunComms();
+		}
+		
 
 	}
     case DLL_THREAD_ATTACH:
@@ -41,4 +46,3 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
-
