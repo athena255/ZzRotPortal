@@ -1,5 +1,5 @@
 # ZzRotPortal
-Simple RAT in Windows with LL keylogger
+Simple RAT with LL keylogger
 
 It spawns a process and posts all of STDOUT over HTTPS and pipes HTTPS responses into STDIN. 
 It also starts a keylogger. Keylogger will save all English language characters. 
@@ -21,3 +21,5 @@ To use:
 
 Stand up an HTTPS server that will print POST requests to the user and respond to GET requests with user input. 
 Compile and inject the DLL into some process for which you have appropriate privileges. 
+
+Currently works on Windows 10 and is undetected by Windows defender or any AV (afaik). 
